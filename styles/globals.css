@@ -29,6 +29,10 @@ body {
   border-color:#fff
 }
 
+.shadow:hover{
+  box-shadow: 2px 2px #c4c4c4, 4px 4px #a55252
+}
+
 a {
   color: inherit;
   text-decoration: none;

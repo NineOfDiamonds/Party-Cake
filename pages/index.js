@@ -4,6 +4,7 @@ import Title from "antd/lib/typography/Title"
 import Head from 'next/head'
 import {Breadcrumb, Layout} from "antd";
 import {SectionHero} from "../src/components/organisms/hero";
+import {SectionWhat} from "../src/components/organisms/whatWeCan";
 
 export default function Home() {
     return (
@@ -16,7 +17,7 @@ export default function Home() {
             </Head>
             <Header/>
             <SectionHero/>
-            <SectionHero/>
+            <SectionWhat/>
 
         </>
     )
