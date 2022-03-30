@@ -6,15 +6,15 @@ import Image from 'next/image'
 export const SectionHero = () => {
     return (
         <>
-            <Content style={{ padding: '0 50px'}}>
-                <div style={{height:'calc(100vh - 56px)',padding: '24px',textAlign:'left'}} className="site-layout-content">
+            <Content style={{ padding: '56px 50px 0 50px'}}>
+                <div style={{height:'calc(100vh - 56px)', padding: '24px',textAlign:'left'}} className="site-layout-content hero">
                     <Row>
                         <Col span={12}>
                             <Title style={{color: '#000', marginBottom:0}}>Сладкое и незабываемое?</Title> <Title style={{color: '#000', marginTop:0}}>Соберите свой торт за несколько минут!</Title>
-                            <Button shape='round' size='large' style={{background: '#ecd0c1', color:'white', borderColor:'#fff'}}>Перейти</Button>
+                            <Button shape='round' size='large' className={'cake-btn'}>Перейти</Button>
                         </Col>
                         <Col span={12}>
-                            <div style={{width: '50%', height: '50%'}}>
+                            <div style={{position:'absolute',right:'0', bottom:'0' , width: '50%', height: '50%'}}>
                                 <Image src={'/static/images/PartyCake.png'} width={'589px'} height={'538px'} />
                             </div>
 

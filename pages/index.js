@@ -15,14 +15,6 @@ export default function Home() {
                 <meta name="copyright" lang="ru" content="ИП Party Cake" />
             </Head>
             <Header/>
-            {/*<Content style={{margin:'60px 0 40px', minHeight:280, textAlign:'center'}}>*/}
-            {/*    <div style={height:100%} >*/}
-            {/*        <Title type={'success'}>Найдите крутой торт или создайте его сами!</Title>*/}
-            {/*    </div>*/}
-            {/*    <Footer>*/}
-
-            {/*    </Footer>*/}
-            {/*</Content>*/}
             <SectionHero/>
             <SectionHero/>
 
