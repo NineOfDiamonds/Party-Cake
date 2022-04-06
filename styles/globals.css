@@ -7,6 +7,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+/*@media (max-width: 888px) {*/
+/*  .header-title{*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+
 /*.hero::before {*/
 /*  box-sizing: border-box;*/
 /*  z-index: 1;*/
@@ -23,6 +29,34 @@ body {
   font-size: 20px;
 }
 
+
+.step-body{
+  position: relative;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.step-number{
+  position: absolute;
+  top: 0;
+  left: -35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #cc9a97;
+  color: #000;
+}
+
+
+.section-title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .cake-btn{
   background: #ecd0c1;
   color: white;
@@ -31,6 +65,23 @@ body {
 
 .shadow:hover{
   box-shadow: 2px 2px #c4c4c4, 4px 4px #a55252
+}
+
+.ability-card{
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #a55252;
+  padding:20px;
+  transition: .2s linear
+
+}
+
+.ability-img{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
