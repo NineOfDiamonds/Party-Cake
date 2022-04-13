@@ -6,6 +6,7 @@ import {Breadcrumb, Layout} from "antd";
 import {SectionHero} from "../src/components/organisms/hero";
 import {SectionWhat} from "../src/components/organisms/whatWeCan";
 import {SectionDo} from "../src/components/organisms/whatToDo";
+import {SectionWho} from "../src/components/organisms/whoWeAre";
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <SectionHero/>
             <SectionWhat/>
             <SectionDo/>
+            <SectionWho/>
 
         </>
     )

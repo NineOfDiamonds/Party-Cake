@@ -5,7 +5,7 @@ export const SectionDo = () => {
     return (
         <>
             <Content style={{ padding: '0 50px'}}>
-                <div style={{height:'100vh', padding: '24px'}} className="site-layout-content">
+                <div style={{height:'500px', padding: '24px'}} className="site-layout-content">
                     <h2 className={'section-title'}>Четыре быстрых шага</h2>
 
                     <Row style={{width:'100%', display: 'flex',justifyContent:'center', flexDirection:'row', marginTop:'60px'}}>
