@@ -33,19 +33,19 @@ body {
 .step-body{
   position: relative;
   width: 100%;
-  margin-left: 40px;
+  margin-left: 90px;
 }
 
 .step-number{
   position: absolute;
   top: 0;
-  left: -35px;
+  left: -50px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-color: #cc9a97;
   color: #000;
 }
