@@ -7,6 +7,7 @@ import {SectionHero} from "../src/components/organisms/hero";
 import {SectionWhat} from "../src/components/organisms/whatWeCan";
 import {SectionDo} from "../src/components/organisms/whatToDo";
 import {SectionWho} from "../src/components/organisms/whoWeAre";
+import { SectionThey } from "../src/components/organisms/whatTheySay";
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ export default function Home() {
             <SectionWhat/>
             <SectionDo/>
             <SectionWho/>
+            <SectionThey/>
 
         </>
     )
