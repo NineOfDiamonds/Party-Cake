@@ -2,6 +2,8 @@ import {Content} from "antd/lib/layout/layout";
 import Title from "antd/lib/typography/Title";
 import {Button, Col, Row,} from "antd";
 import Image from 'next/image'
+import { CakeForOneDay } from "../../modals/CakeForOneDay";
+
 
 export const SectionHero = () => {
     return (
@@ -12,6 +14,7 @@ export const SectionHero = () => {
                         <Col span={12}>
                             <Title style={{color: '#000', marginBottom:0}}>Сладкое и незабываемое?</Title> <Title style={{color: '#000', marginTop:0}}>Соберите свой торт за несколько минут!</Title>
                             <Button shape='round' size='large' className={'cake-btn'}>Перейти</Button>
+                            <CakeForOneDay/>
                         </Col>
                         <Col span={12}>
                             <div style={{position:'absolute',right:'0', bottom:'0' , width: '50%', height: '50%'}}>
